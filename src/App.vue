@@ -1,30 +1,51 @@
 <template>
+  <div id="title">
+  <h1>hi, i'm tomoe</h1>
+  <p> beep boop this site is under construction </p>
+  </div>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">home</router-link> <br>
+    <router-link to="/about">about</router-link><br> 
+    <router-link to="/work">work</router-link>
   </div>
   <router-view/>
+  
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
-}
+  padding-left: 100px;
+  padding-top: 50px;
 
+  
+}
+#title {
+  text-align: left;
+  color: #2c3e50;
+  padding-right: 100px;
+
+}
 #nav {
-  padding: 30px;
+  align-content: left;
+  text-align: left;
+  padding-right: 100px;
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: inline-block
+  
 }
 
 #nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  color: #42b983;
+  text-decoration: none;
+
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>
