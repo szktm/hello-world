@@ -1,7 +1,6 @@
 <template>
   <div id="title">
   <h1>hi, i'm tomoe</h1>
-  <p> beep boop this site is under construction </p>
   </div>
   <div id="nav">
     <router-link to="/">home</router-link> <br>
@@ -12,18 +11,20 @@
   
 </template>
 
+
 <style>
+
 #app {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
-  padding-left: 100px;
-  padding-top: 50px;
+  padding: 5%;
 
   
 }
+
 #title {
   text-align: left;
   color: #2c3e50;
@@ -33,12 +34,12 @@
 #nav {
   align-content: left;
   text-align: left;
-  padding-right: 100px;
-  width: 20%;
-  height: 100%;
+  width: 15%;
+  padding-right: 10%;
+  display: block;
+  width: 10%;
+  height: 100vh;
   float: left;
-  display: inline-block
-  
 }
 
 #nav a {
@@ -46,6 +47,8 @@
   text-decoration: none;
 
 }
+
+
 
 
 </style>
