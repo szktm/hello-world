@@ -1,5 +1,5 @@
 <template>
-[insert things about myself]
+    Under construction. Not many fun facts about myself.
 </template>
 
 <style>

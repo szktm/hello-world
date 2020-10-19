@@ -7,7 +7,9 @@
     <router-link to="/about">about</router-link><br> 
     <router-link to="/work">work</router-link>
   </div>
-  <router-view/>
+  <div class="content">
+    <router-view/>
+  </div>
   
 </template>
 
@@ -32,14 +34,11 @@
 
 }
 #nav {
-  align-content: left;
-  text-align: left;
   width: 15%;
-  padding-right: 10%;
   display: block;
-  width: 10%;
   height: 100vh;
   float: left;
+  margin: flex
 }
 
 #nav a {
@@ -48,6 +47,12 @@
 
 }
 
+.content {
+  margin: auto;
+
+  font-size: 14px
+
+}
 
 
 
