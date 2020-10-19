@@ -38,7 +38,7 @@ export default {
         },
         {
           area: "Tech",
-          description: "Legal industry & technology companies - Would love a chance to start off in less non-technical roles, learn on the job and eventually transition to a technical role.."
+          description: "Legal industry & technology companies - Would love a chance to start off in a non-technical role, learn on the job and eventually transition to a technical role"
         }
 
       ]
